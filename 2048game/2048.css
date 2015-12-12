@@ -1,0 +1,18 @@
+.table {
+  background: grey;
+  margin: 100px auto;
+  width: 50%;
+  font-size: 50px;
+}
+.table1 {
+  width: 10px;
+  height: 100px;
+}
+.two {
+  background: white;
+  height: 100px;
+}
+.four {
+  background: #C0C0C0;
+  height: 100px;
+}
