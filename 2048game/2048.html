@@ -4,11 +4,39 @@
   <meta charset="utf-8">
   <title>2048 game</title>
   <link rel="stylesheet" type="text/css" href="hyphen.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="2048.css">
   <script src="jquery-1.11.3.min.js"></script>
   <script src="2048.js"></script>
 </head>
 <body>
-  <div id="body"></div>
-  </body>
+  <div class="grid">
+    <div class="grid grid__item grid__item--3">
+      <span class="span">
+      </span>
+    </div>
+    <div class="grid grid__item grid__item--2">
+      <h3>2048</h3>
+    </div>
+    <div class="grid grid__item grid__item--2">
+      <h1><span class="label label-info">Score 0</span></h1>
+    </div>
+    <div class="grid grid__item grid__item--1">
+      <h1><span class="label label-info">Best 0</span></h1>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="grid grid__item grid__item--3">
+      <span class="span"></span>
+    </div>
+    <div class="grid grid__item grid__item--4">
+    <p>Move the tiles to join similar tiles and form 2048
+    </p>
+  </div>
+  <div class="grid grid__item grid__item--2">
+    <button class="btn btn--tertiary btn--large" onclick="newGame()">New Game</button>
+  </div>
+</div><br>
+<span id="body"></span>
+</body>
 </html>

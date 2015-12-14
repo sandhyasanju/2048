@@ -1,12 +1,15 @@
 .table {
   background: grey;
-  margin: 100px auto;
-  width: 50%;
   font-size: 50px;
+  margin: 0 300px;
+    position: relative;
+  width: 50%;
 }
 .table1 {
-  width: 10px;
+  width: 600px;
   height: 100px;
+  align-items: center;
+    position: relative;
 }
 .two {
   background: white;
@@ -15,4 +18,27 @@
 .four {
   background: #C0C0C0;
   height: 100px;
+}
+.transparent {
+  align-self: center;
+  background: white;
+  /*display: none;*/
+  font-size: 140px;
+  margin-top: -400px;
+  height: 500px;
+  opacity: 0.3;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.transparent .btn {
+  color: red;
+  font-weight: bolder;
+}
+.span {
+  margin: 10px;
+}
+h3 {
+  font-size: 60px;
+  margin: 15px;
 }
