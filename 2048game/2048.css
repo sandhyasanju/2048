@@ -1,15 +1,15 @@
-.table {
-  background: grey;
-  font-size: 50px;
-  margin: 0 300px;
+table {
+  margin: 0 350px;
     position: relative;
-  width: 50%;
 }
 .table1 {
-  width: 600px;
+  background: grey;
+  border: 2px solid black;
+  font-size: 50px;
+  width: 100px;
   height: 100px;
-  align-items: center;
-    position: relative;
+  text-align: center;
+
 }
 .two {
   background: white;
@@ -23,7 +23,7 @@
   align-self: center;
   background: white;
   /*display: none;*/
-  font-size: 140px;
+  font-size: 80px;
   margin-top: -400px;
   height: 500px;
   opacity: 0.3;
@@ -41,4 +41,10 @@
 h3 {
   font-size: 60px;
   margin: 15px;
+}
+.label {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
 }
